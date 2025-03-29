@@ -1,0 +1,115 @@
+/* Wrapper for attendance calendar */
+
+.landing-container22 {
+    background-image:url("./slider-left-dec.png");
+    background-repeat: no-repeat;
+    padding: 20px;
+    position: relative;
+    height: 720px;
+    width: auto;
+  }
+.attendance-wrapper1 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 600px;
+    align-items: center;
+  }
+  
+
+  .calendar-day-present {
+    background-color: #4caf50; /* Green for present */
+    color: white;
+  }
+  
+  .calendar-day-absent {
+    background-color: #f44336; /* Red for absent */
+    color: white;
+  }
+  
+  /* Calendar container */
+  .calendar-container1 {
+    flex: 1;
+    max-width: 800px;
+    background:rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Calendar styling */
+  .attendance-calendar {
+    width: 100%;
+    border: none;
+  }
+  
+  /* Default calendar day styling */
+  .calendar-day-default {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* Highlight attended days */
+  .calendar-day-attended {
+    background-color: #4caf50 !important;
+    color: white !important;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  
+  /* Side panel for attendance details */
+  .attendance-side-panel {
+    flex: 1;
+    background:rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panel-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .panel-date {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .panel-checkin,
+  .panel-checkout,
+  .panel-hours {
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: bold;
+  }
+  
+  .checkin-time {
+    color: #2196f3;
+  }
+  
+  .checkout-time {
+    color: #e91e63;
+  }
+  
+  .work-hours-value {
+    color: #ff9800;
+  }
+  
+  .panel-no-record {
+    color: #888;
+    font-style: italic;
+  }
+  .attendance-checkmark {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+  }
+    

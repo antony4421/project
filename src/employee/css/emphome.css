@@ -1,0 +1,137 @@
+/* General Page Styling */
+.landing-container {
+  background-image:url("./slider-left-dec.png");
+  background-repeat: no-repeat;
+  padding: 20px;
+  position: relative;
+  height: 800px;
+  width: auto;
+}
+
+/* Navbar */
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 20px 50px;
+  background: transparent;
+}
+
+.custom-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -10px;
+  color: rgb(0, 0, 0);
+}
+
+.custom-nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.custom-nav-item {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 20px;
+  font-weight: 400;
+  font-weight: bold;
+
+}
+
+.custom-nav-item:hover {
+  color: #dbeafe;
+}
+
+/* Sign In Button */
+.custom-signin-btn {
+  background-color: white;
+  color: #3b82f6;
+  padding: 10px 20px;
+  border-radius: 8px;
+  
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.custom-signin-btn:hover {
+  background-color: #1e40af;
+  color: white;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: center;
+  margin-top: -380px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Hero Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.apple-button {
+  background-color: white;
+  color: #3b82f6;
+}
+
+.apple-button:hover {
+  background-color: #1e40af;
+  color: white;
+}
+
+.play-button {
+  background-color: white;
+  color: #3b82f6;
+}
+
+.play-button:hover {
+  background-color: #1e40af;
+  color: white;
+}
+
+/* Hero Image */
+.hero-image {
+  margin-top: 10%;
+  margin-left: 850px;
+}
+
+.custom-image {
+  width: 600px;
+  height: auto;
+}

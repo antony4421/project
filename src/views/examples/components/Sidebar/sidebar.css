@@ -1,0 +1,93 @@
+/* Sidebar Container */
+.custom-sidebar-container {
+  width: 250px;
+  background: linear-gradient(135deg, #0080ff, #ffffff,#0080ff);
+  color: white;
+  padding: 20px;
+  height: auto;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: width 0.3s ease-in-out;
+}
+
+/* Minimized Sidebar */
+.custom-minimized {
+  width: 80px;
+  padding: 20px 10px;
+}
+
+.custom-minimized .custom-sidebar-title,
+.custom-minimized .custom-sidebar-button span {
+  display: none;
+}
+
+/* Sidebar Toggle Button */
+.custom-sidebar-toggle {
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 15px;
+  
+}
+
+/* Sidebar Title */
+.custom-sidebar-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Sidebar Buttons */
+.custom-sidebar-button {
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 18px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease, padding-left 0.3s ease;
+  border-radius: 5px;
+}
+
+.custom-sidebar-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  padding-left: 15px;
+}
+
+.custom-sidebar-button:focus {
+  outline: none;
+}
+
+/* Auto Margin for Last Button */
+.custom-mt-auto {
+  margin-top: auto;
+}
+
+/* Sidebar Icons */
+.custom-sidebar-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+/* Custom Icons 
+.home-icon { background-image: url("/icons/home.png"); }
+.employees-icon { background-image: url("/icons/employees.png"); }
+.reports-icon { background-image: url("/icons/reports.png"); }
+.tasks-icon { background-image: url("/icons/tasks.png"); }
+.calendar-icon { background-image: url("/icons/calendar.png"); }
+.messages-icon { background-image: url("/icons/messages.png"); }
+.settings-icon { background-image: url("/icons/settings.png"); }
+*/

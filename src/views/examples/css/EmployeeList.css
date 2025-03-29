@@ -1,0 +1,114 @@
+.employee-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.employee-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.employee-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.employee-card {
+  border: 1px solid #0026ff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(148, 200, 255, 0.2);
+}
+
+.employee-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.employee-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.view-button,
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.view-button {
+  background-color: #2289de;
+  color: white;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: black;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.employee-table th {
+  background-color: #f4f4f4;
+}
+
+.employee-table td .employee-actions {
+  display: flex;
+  gap: 5px;
+}
+
+/* Add Employee Button Theme */
+.add-button {
+  background-color: #007bff;  /* Primary blue */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+}
+
+.add-button:hover {
+  background-color: #0056b3;  /* Darker blue */
+  box-shadow: 0 6px 12px rgba(0, 91, 191, 0.3);
+}
+
+.add-button:active {
+  background-color: #004080;  /* Even darker blue */
+  transform: scale(0.98);
+}

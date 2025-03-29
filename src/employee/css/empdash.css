@@ -1,0 +1,166 @@
+.landing{
+    background-image:url("./service.png");
+  height: 800px;
+ 
+}
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color:transparent;
+    width: 100%;
+    
+    margin-top: 100px;
+  }
+  
+  .services h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .services h2 span {
+    color: #007bff;
+  }
+  
+  .subtitle {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 14px;
+  }
+  
+  .subtitle a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .service-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #7bd3ff;
+    color: white;
+  }
+  
+  .service-card:hover .icon {
+    color: white;
+  }
+  
+  .service-card:hover a {
+    color: #fff;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .service-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 14px;
+    color: #666;
+    transition: color 0.3s ease;
+  }
+  
+  .service-image {
+    width: 80px;  /* Adjust size as needed */
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover .service-image {
+    transform: scale(1.1);
+  }
+  .service-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Navbar */
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 20px 50px;
+    background: transparent;
+  }
+  
+  .custom-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .custom-nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .custom-nav-item {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 20px;
+    font-weight: 400;
+    font-weight: bold;
+  
+  }
+  
+  .custom-nav-item:hover {
+    color: #5291e3;
+  }
+  
+  /* Sign In Button */
+  .custom-signin-btn {
+    background-color: white;
+    color: #3b82f6;
+    padding: 10px 20px;
+    border-radius: 8px;
+    
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .custom-signin-btn:hover {
+    background-color: #1e40af;
+    color: white;
+  }
+  
+  .active{
+    color:rgb(21, 99, 225);
+  }

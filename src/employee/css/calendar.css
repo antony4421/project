@@ -1,0 +1,138 @@
+/* Calendar Wrapper */
+.calendar-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Calendar Header */
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .nav-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background: #0056b3;
+  }
+  
+  .month-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Calendar Grid */
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    text-align: center;
+  }
+  
+  /* Weekday Headers */
+  .calendar-weekday {
+    font-weight: bold;
+    padding: 10px 0;
+    background: #f3f3f3;
+    border-radius: 4px;
+  }
+  
+  /* Calendar Days */
+  .calendar-day-cell {
+    padding: 15px;
+    background: #e9f5ff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .calendar-day-cell:hover {
+    background: #d0ebff;
+    transform: scale(1.05);
+  }
+  
+  /* Inactive Days (Previous/Next Month) */
+  .inactive-day {
+    opacity: 0.5;
+    background: #f3f3f3;
+    cursor: default;
+  }
+  
+  /* Event Modal */
+  .event-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .event-modal-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Field */
+  .event-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Modal Buttons */
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-event-btn,
+  .cancel-event-btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .save-event-btn {
+    background: #28a745;
+    color: white;
+  }
+  
+  .save-event-btn:hover {
+    background: #218838;
+  }
+  
+  .cancel-event-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .cancel-event-btn:hover {
+    background: #c82333;
+  }
+  
